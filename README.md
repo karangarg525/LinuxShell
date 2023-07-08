@@ -1,0 +1,1 @@
+This repository will contain the solution to all the challenges in HackerRank Linux Shell topic.
