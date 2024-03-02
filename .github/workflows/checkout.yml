@@ -1,4 +1,4 @@
-name: checkout flow
+name: checkout-flow
 on: workflow_dispatch
 jobs:
     checkout:
