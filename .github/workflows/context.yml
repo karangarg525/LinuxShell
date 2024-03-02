@@ -1,0 +1,8 @@
+name: explore context
+on: workflow_dispatch
+jobs:
+    context:
+        runs-on: ubuntu-latest
+        steps:
+          - name: github object
+            run: echo "${{ github }}"
