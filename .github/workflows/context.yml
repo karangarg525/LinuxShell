@@ -24,7 +24,7 @@ jobs:
         - name: download artifacts
           uses: actions/download-artifact@v4
           with:
-            name: some-files
+            name: some files
         - name: list contents
           run: ls
         - name: deploy
