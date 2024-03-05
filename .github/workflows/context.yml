@@ -10,4 +10,4 @@ jobs:
             uses: actions/upload-artifact@v4
             with:
               name: some files
-              path: 1-lets-echo
+              path: 1-lets-echo/
