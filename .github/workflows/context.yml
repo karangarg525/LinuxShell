@@ -7,6 +7,7 @@ jobs:
         - name: github object
           run: echo "${{ toJSON(github.repository) }}"
     upload:
+      needs: context
       runs-on: ubuntu-latest
       steps:
         - name: checkout
