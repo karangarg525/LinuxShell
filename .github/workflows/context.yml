@@ -17,3 +17,15 @@ jobs:
           with:
             name: some files
             path: 1-lets-echo/
+    download:
+      needs: upload
+      runs-on: ubuntu-latest
+      steps:
+        - name: download artifacts
+          uses: actions/download-artifact@v4
+          with:
+            name: some-files
+        - name: list contents
+          run: ls
+        - name: deploy
+          run: echo "Deploying..."
