@@ -5,7 +5,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: github object
-          run: echo "${{ toJSON(github.repository) }}"
+          run: echo "${{ toJSON(github) }}"
     upload:
       needs: context
       runs-on: ubuntu-latest
